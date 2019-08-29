@@ -168,7 +168,8 @@ section:nth-child(even) {
     list-style: none;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     
 }
 
@@ -176,7 +177,8 @@ section:nth-child(even) {
     margin-top: 2vh;
     display: flex;
     flex-direction: row;
-    margin-left: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contactIcon li {
