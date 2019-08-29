@@ -168,17 +168,19 @@ section:nth-child(even) {
     list-style: none;
     display: flex;
     flex-direction: column;
-    margin-right: auto;
-    margin-left: auto;
-    
+    justify-content: center;
+}
+
+#email {
+    margin-left: -2vh;
 }
 
 .contactIcon {
     margin-top: 2vh;
     display: flex;
     flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    margin-left: -1.5vh;
 }
 
 .contactIcon li {
