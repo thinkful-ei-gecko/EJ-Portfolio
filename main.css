@@ -172,7 +172,7 @@ section:nth-child(even) {
 }
 
 #email {
-    margin-left: -2vh;
+    margin-left: -3vh;
 }
 
 .contactIcon {
@@ -180,7 +180,7 @@ section:nth-child(even) {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: -1.5vh;
+    margin-left: -3vh;
 }
 
 .contactIcon li {
