@@ -23,6 +23,7 @@
 
     .desktopNav a {
         text-decoration: none;
+        color: white;
     }
 
     .desktopNav a:visited {
