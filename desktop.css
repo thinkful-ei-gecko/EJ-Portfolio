@@ -142,3 +142,41 @@
 
 
 }
+
+/* About Me */
+
+@media screen and (min-width: 768.1px) {
+    #aboutMeBio {
+        width: 40%;
+    }
+}
+
+/* Contact */
+
+@media screen and (min-width: 768.1px) {
+    #email {
+        margin-top: 2rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .contactIcon {
+        margin-top: 3rem;
+        width: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: auto;
+        margin-right: auto;
+        transform: translateX(-15px);
+    }
+
+
+}
+
+/* Footer */
+
+@media screen and (min-width: 768.1px) {
+    footer {
+        margin-top: -5.5vh;
+    }
+}
