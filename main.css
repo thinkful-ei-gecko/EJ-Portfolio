@@ -72,12 +72,12 @@ section:nth-child(even) {
     text-decoration: underline;
 }
 
-#headerStatement {
+.headerStatement {
     margin-top: -2vh;
-    display: flex;
-    width: 80%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 55%;
 }
 
 #inovating {
