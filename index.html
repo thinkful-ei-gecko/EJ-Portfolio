@@ -5,92 +5,124 @@
     <title>EJ Gonzalez | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="hamburger.css">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
-    <nav role="navigation">
-        <h2 class="navName">
-            <span id="nameSpanSymbols">&#60 &#47</span>
-            EJ_Gonzalez
-            <span id="nameSpanSymbols">&#62</span>
-        </h2>
-        <div id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </nav>
-    <main role="main">
-        <header role="banner" class="banner">
-            <img class="headerImg" alt="laptop image" src="https://img.icons8.com/cotton/64/000000/laptop--v1.png">
-            <h1 class="nameHeader">Hey there! My name is <span class="nameSpan"><span
-                        id="nameSpanSymbols">&#60&#47</span>EJ_Gonzalez<span id="nameSpanSymbols">&#62</span></span>
-                Need a Developer? Designer? I
-                can create beautiful clean applications.
-            </h1>
-        </header>
-
-        <section>
-            <h2>Projects</h2>
-            <div class="projects">
-                <div class="project">
-                    <h3>BookMe</h3>
-                    <img class="projectImg" src="./Images/BookMe.png">
-                    <div class="middle">
-                        <button id="live"><a>Live</a></button>
-                        <button id="repo"><a>Repo</a></button>
-                    </div>
-
-                </div>
-                <div class="project">
-                    <h3>Quiz App</h3>
-                    <img class="projectImg" src="./Images/QuizApp.png">
-                    <div class="middle">
-                        <button id="live"><a>Live</a></button>
-                        <button id="repo"><a>Repo</a></button>
-                    </div>
-
-                </div>
+        <nav role="navigation">
+           <img class="navName" src="Images/laptopIcon.png">
+         </nav>
+        <div class="menu-wrap">
+          <input type="checkbox" class="toggler">
+          <div class="hamburger"><div></div></div>
+          <div class="menu">
+            <div>
+              <div>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
             </div>
-        </section>
-
-        <section>
-            <h2>Skills</h2>
-            <ul class="skills">
-                <li class="skillsList">HTML</li>
-                <li class="skillsList">CSS</li>
-                <li class="skillsList">JavaScript</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>About Me</h2>
-            <img id="aboutMeIcon" alt="icon of person" src="./Images/boy.png">
-            <p id="aboutMeBio">Hey there, my name is EJ Gonzalez. I am a passionate energetic coding enthusiast who
-                loves to
-                create web applications. I graduated from Thinkful Inc. Engineering Immersion program but, aside from
-                coding some of my hobbies include exercising, golfing and playing video games.
-            </p>
-        </section>
-
-        <section>
-            <h2>Contact</h2>
-            <ul class="contact">
-                <li id="email">email: ejg132@gmail.com</li>
-                <div class="contactIcon">
-                    <li><a href="https://github.com/EJ132?tab=repositories">
-                        <img src="./Images/githubIcon.png"></a>
-                    </li>
-                    <li><a href="https://www.linkedin.com/in/ej-gonzalez-2b1492187">
-                        <img src="./Images/linkedinIcon.png"></a>
-                    </li>
-                </div>
-
-            </ul>
-        </section>
-    </main>
-    <footer role="content-info">&#169 EJ Gonzalez 2019</footer>
-</body>
+          </div>
+        </div>
+      <main role="main">
+              <header role="banner" class="banner">
+      
+                  <h1 class="nameHeader">EJ Gonzalez</h1>
+                  <div id="headerStatement">
+                      <h2 id="headerh2"><span id="inovating">Inovating</span> your ideas into reality</h2>
+                  </div>
+              </header>
+      
+              <section>
+                  <h2 id="title">Projects</h2>
+                  <div class="projects">
+                      <div class="project">
+                          <h3>BookMe</h3>
+                          <img class="projectImg" src="./Images/BookMe.png">
+                          <div class="skillSetUsed">
+                              <li id="skillsUsed">HTML5</li>
+                              <li id="skillsUsed">CSS3</li>
+                              <li id="skillsUsed">jQuery</li>
+                              <li id="skillsUsed">Ajax</li>
+                          </div>
+                          <p>BookMe allows you to add your favorite or worst books
+                              to a database where your bookmarks are saved. If you are trying to share your
+                              experience with a good or bad book visit the site. This was built for the sole purpose of
+                              practice.</p>
+      
+                          <div class="middle">
+                              <button id="live"><a
+                                      href="https://thinkful-ei-gecko.github.io/EJ-BookmarkMe-App/">Live</a></button>
+                              <button id="repo"><a
+                                      href="https://github.com/thinkful-ei-gecko/EJ-Bookmark-App">Repo</a></button>
+                          </div>
+      
+                      </div>
+                      <div class="project">
+                          <h3>Quiz App</h3>
+                          <img class="projectImg" src="./Images/QuizApp.png">
+                          <div class="skillSetUsed">
+                              <li id="skillsUsed">HTML5</li>
+                              <li id="skillsUsed">CSS3</li>
+                              <li id="skillsUsed">jQuery</li>
+                          </div>
+                          <p>Simple quiz application where you can test your car knowledge on where they
+                              originate from. Built for anyone that wants to expand their car IQ and sound like a
+                              pro when talking about cars.</p>
+                          <div class="middle">
+                              <button id="live"><a
+                                      href="https://thinkful-ei-gecko.github.io/EJ-Nandana-Quiz-App/">Live</a></button>
+                              <button id="repo"><a
+                                      href="https://github.com/thinkful-ei-gecko/EJ-Nandana-Quiz-App">Repo</a></button>
+                          </div>
+      
+                      </div>
+                  </div>
+              </section>
+      
+              <section>
+                  <h2 id="title">Skills</h2>
+                  <ul class="skills">
+                      <img src="./Images/htmlIcon.png" class="skillsList">
+                      <img src="./Images/cssIcon.png" class="skillsList">
+                      <img src="./Images/jsIcon.png" class="skillsList">
+                  </ul>
+              </section>
+      
+              <section>
+                  <h2 id="title">About Me</h2>
+                  <img id="aboutMeIcon" alt="icon of person" src="./Images/boy.png">
+                  <p id="aboutMeBio">Hey there, my name is EJ Gonzalez. I am a passionate energetic coding enthusiast who
+                      loves to
+                      create web applications. I graduated from Thinkful Inc. Engineering Immersion program but, aside from
+                      coding some of my hobbies include exercising, golfing and playing video games.
+                  </p>
+              </section>
+      
+              <section>
+                  <h2 id="title">Contact</h2>
+                  <ul class="contact">
+                      <li id="email">email: ejg132@gmail.com</li>
+                      <div class="contactIcon">
+                          <li><a href="https://github.com/EJ132?tab=repositories">
+                                  <img src="./Images/githubIcon.png"></a>
+                          </li>
+                          <li><a href="https://www.linkedin.com/in/ej-gonzalez-2b1492187">
+                                  <img src="./Images/linkedinIcon.png"></a>
+                          </li>
+                      </div>
+      
+                  </ul>
+              </section>
+          </main>
+          <footer role="content-info">&#169 EJ Gonzalez 2019</footer>
+        
+          <script src="main.js"></script>
+      </body>
 
 </html>
