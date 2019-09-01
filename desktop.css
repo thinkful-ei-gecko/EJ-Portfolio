@@ -51,10 +51,38 @@
     }
 
     #imageResize {
+        position: relative;
         width: 50%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
+        transition: 0.4s ease-in;
+    }
+
+    #imageResize .middleDesktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        z-index: 3;
+        position: absolute;
+        cursor: pointer;
+        opacity: 0;
+        width: 100%;
+        top: 25%;
+       }
+
+       #live,
+       #repo {
+           width: 100px;
+           height: 50px;
+           display: flex;
+           text-align: center;
+           justify-content: center;
+           margin: 0;
+    }
+
+    #live {
+        margin-right: 10px;
     }
 
     #carImg {
@@ -62,6 +90,7 @@
         height: auto;
         border: solid 2px white;
     }
+
     .projectImg {
         backface-visibility: hidden;
         transition: 0.5s ease;
@@ -89,10 +118,11 @@
 
     .project:hover .projectImg {
         opacity: 0.3;
-        background-color: rgb(31, 40, 51)
+        background-color: black;
     }
 
-    .project:hover .middle {
+
+    .project:hover #imageResize .middleDesktop {
         cursor: pointer;
         opacity: 1;
     }
@@ -101,20 +131,14 @@
         text-decoration: underline;
     }
 
-    .middle {
-        cursor: pointer;
-        opacity: 0;
-        position: absolute;
-        top: 57%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-    }
-
     #live:hover,
     #repo:hover {
         cursor: pointer;
+        text-decoration: none;
+    }
+
+    .middle {
+        display: none;
     }
 }
 
