@@ -5,14 +5,15 @@
     <title>EJ Gonzalez | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
-    <link rel="stylesheet" type="text/css" href="hamburger.css">
+    <link rel="stylesheet" type="text/css" href="notActiveHamburger.css">
+    <link rel="stylesheet" type="text/css" href="activeHamburger.css">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="desktop.css">
 </head>
 
 <body>
-    <nav role="navigation">
-        <a id="homeImage" href="#topPage"><img class="navName" src="Images/laptopIcon.png"></a>
+    <nav>
+        <a id="homeImage" href="#topPage"><img class="navName" alt="laptop icon image" src="Images/laptopIcon.png"></a>
         <div class="desktopNav">
             <li><a href="#ProjectsDesktop">Projects</a></li>
             <li><a href="#SkillDesktop">Skills</a></li>
@@ -40,8 +41,8 @@
         </div>
     </div>
 
-    <main role="main">
-        <header role="banner" class="banner" id="topPage">
+    <main>
+        <header class="banner" id="topPage">
 
             <h1 class="nameHeader">EJ Gonzalez</h1>
             <div id="Projects" class="headerStatement">
@@ -57,10 +58,8 @@
                     <h3>BookMe</h3>
                     <div id="imageResize">
                         <div class="middleDesktop">
-                            <button id="live"><a
-                                    href="https://thinkful-ei-gecko.github.io/EJ-BookmarkMe-App/">Live</a></button>
-                            <button id="repo"><a
-                                    href="https://github.com/thinkful-ei-gecko/EJ-BookmarkMe-App">Repo</a></button>
+                            <a id="live" href="https://thinkful-ei-gecko.github.io/EJ-BookmarkMe-App/" target="_blank">Live</a>
+                            <a id="repo" href="https://github.com/thinkful-ei-gecko/EJ-BookmarkMe-App" target="_blank">Repo</a>
                         </div>
 
                         <img class="projectImg imgSize" id="carImg" src="./Images/BookMe.png">
@@ -77,10 +76,8 @@
                         practice.</p>
 
                         <div class="middle">
-                                <button id="live"><a
-                                        href="https://thinkful-ei-gecko.github.io/EJ-BookmarkMe-App/">Live</a></button>
-                                <button id="repo"><a
-                                        href="https://github.com/thinkful-ei-gecko/EJ-BookmarkMe-App">Repo</a></button>
+                            <a id="live" href="https://thinkful-ei-gecko.github.io/EJ-BookmarkMe-App/" target="_blank">Live</a>
+                            <a id="repo" href="https://github.com/thinkful-ei-gecko/EJ-BookmarkMe-App" target="_blank">Repo</a>
                         </div>
 
                 </div>
@@ -88,10 +85,8 @@
                     <h3>Quiz App</h3>
                     <div id="imageResize">
                         <div id="Skills" class="middleDesktop">
-                            <button id="live"><a
-                                    href="https://thinkful-ei-gecko.github.io/EJ-Nandana-Quiz-App/">Live</a></button>
-                            <button id="repo"><a
-                                    href="https://github.com/thinkful-ei-gecko/EJ-Nandana-Quiz-App">Repo</a></button>
+                            <a id="live" href="https://thinkful-ei-gecko.github.io/EJ-Nandana-Quiz-App/" target="_blank">Live</a>
+                            <a id="repo" href="https://github.com/thinkful-ei-gecko/EJ-Nandana-Quiz-App" target="_blank">Repo</a>
                         </div>
                         <img class="projectImg" id="carImg" src="./Images/Around The World.png">
                     </div>
@@ -105,10 +100,8 @@
                         pro when talking about cars.</p>
 
                     <div id="SkillsDesktop" class="middle">
-                                <button id="live"><a
-                                        href="https://thinkful-ei-gecko.github.io/EJ-Nandana-Quiz-App/">Live</a></button>
-                                <button id="repo"><a
-                                        href="https://github.com/thinkful-ei-gecko/EJ-Nandana-Quiz-App">Repo</a></button>
+                        <a id="live" href="https://thinkful-ei-gecko.github.io/EJ-Nandana-Quiz-App/" target="_blank">Live</a>
+                        <a id="repo" href="https://github.com/thinkful-ei-gecko/EJ-Nandana-Quiz-App" target="_blank">Repo</a>
                     </div>
 
                 </div>
@@ -140,22 +133,25 @@
         </section>
 
         <section id="contactDesktop">
-            <h2 id="title">Contact</h2>
+            <h2 class="title">Contact</h2>
             <ul class="contact" id="contact">
                 <li id="email">email: ejg132@gmail.com</li>
                 <div class="contactIcon">
-                    <li><a href="https://github.com/EJ132?tab=repositories">
+                    <li><a href="https://github.com/EJ132?tab=repositories" target="_blank">
                             <img alt="github icon image" src="./Images/githubIcon.png"></a>
                     </li>
-                    <li><a alt="linkedIn icon image" href="https://www.linkedin.com/in/ej-gonzalez-2b1492187">
-                            <img src="./Images/linkedinIcon.png"></a>
+                    <li><a alt="linkedIn icon image" href="https://www.linkedin.com/in/ej-gonzalez-2b1492187" target="_blank">
+                            <img alt="linked in icon" src="./Images/linkedinIcon.png"></a>
                     </li>
                 </div>
 
             </ul>
         </section>
     </main>
-    <footer role="content-info">&#169 EJ Gonzalez 2019</footer>
+    <footer>&#169; EJ Gonzalez 2019</footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
 </body>
 
 </html>

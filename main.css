@@ -81,7 +81,7 @@ section:nth-child(even) {
 }
 
 #inovating {
-    font-size: 3vh;
+    font-size: 36px;
 }
 
 #headerh2 {
@@ -203,9 +203,9 @@ section:nth-child(even) {
     width: 100px;
     height: 50px;
     border-radius: 5px;
-    padding: 0.5vh;
     border: none;
     font-size: 16px;
+    padding-top: 12px;
     color: white;
     text-decoration: none;
 }

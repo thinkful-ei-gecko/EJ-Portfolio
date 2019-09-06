@@ -78,6 +78,7 @@
            display: flex;
            text-align: center;
            justify-content: center;
+           padding-top: 12px;
            margin: 0;
     }
 
@@ -172,7 +173,7 @@
 
 @media screen and (min-width: 768.1px) {
     #aboutMeBio {
-        width: 40%;
+        width: 60vh;
     }
 }
 
