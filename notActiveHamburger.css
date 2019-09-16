@@ -74,13 +74,9 @@
     height: 100%;
     visibility: hidden;
     overflow: hidden;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .visible {
-    display: none;
   }
   
   .menu-wrap .menu > div {
@@ -123,10 +119,6 @@
 
   .desktopNav {
       display: none;
-  }
-
-  .invis {
-      display: flex !important;
   }
 
   @media screen and (min-width: 768.1px){

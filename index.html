@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="notActiveHamburger.css">
-    <link rel="stylesheet" type="text/css" href="activeHamburger.css">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="desktop.css">
 </head>
@@ -23,18 +22,18 @@
     </nav>
     <div class="menu-wrap">
         <input type="checkbox" class="toggler">
-        <div class="hamburger">
+        <div class="hamburger" id="check">
             <div></div>
         </div>
         <div class="menu">
             <div>
                 <div>
-                    <ul>
-                        <li><a href="#topPage">Home</a></li>
-                        <li><a href="#Projects">Project</a></li>
-                        <li><a href="#Skills">Skills</a></li>
-                        <li><a href="#aboutMe">About Me</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                    <ul id="uncheck">
+                        <li><a href="#topPage" >Home</a></li>
+                        <li><a href="#Projects" >Project</a></li>
+                        <li><a href="#skills" >Skills</a></li>
+                        <li><a href="#aboutMe" >About Me</a></li>
+                        <li><a href="#contact" >Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -95,7 +94,7 @@
                         <li id="skillsUsed">CSS3</li>
                         <li id="skillsUsed">jQuery</li>
                     </div>
-                    <p>Simple quiz application where you can test your car knowledge on where they
+                    <p id="skills">Simple quiz application where you can test your car knowledge on where they
                         originate from. Built for anyone that wants to expand their car IQ and sound like a
                         pro when talking about cars.</p>
 
