@@ -20,6 +20,7 @@ function hamburgerShow() {
     })
 
     $('#uncheck').on('click', function () {
+        event.preventDefault()
         $('.toggler').prop('checked', false)
     })
 
