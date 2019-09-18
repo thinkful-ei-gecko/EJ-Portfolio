@@ -3,13 +3,13 @@
 @media screen and (min-width: 768.1px) {
     .desktopNav {
         display: flex;
-        top: 0;
+        top: -4px;
         right: 0;
         z-index: 2;
         position: fixed;
         color: white;
         list-style: none;
-        padding: 16px 14px;
+        /* padding: 16px 14px; */
     }
 
     .desktopNav li {
@@ -50,7 +50,7 @@
         width: 20%;
     }
 
-    #imageResize {
+    .imageResize {
         position: relative;
         width: 50%;
         height: auto;
@@ -59,7 +59,7 @@
         transition: 0.4s ease-in;
     }
 
-    #imageResize .middleDesktop {
+    .imageResize .middleDesktop {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -71,22 +71,22 @@
         top: 25%;
        }
 
-       #live,
-       #repo {
+       .live,
+       .repo {
            width: 100px;
            height: 50px;
            display: flex;
            text-align: center;
            justify-content: center;
            padding-top: 12px;
-           margin: 0;
+           margin: 2px;
     }
 
     #live {
         margin-right: 10px;
     }
 
-    #carImg {
+    .carImg {
         width: 100%;
         height: auto;
         border: solid 2px white;
@@ -123,7 +123,7 @@
     }
 
 
-    .project:hover #imageResize .middleDesktop {
+    .project:hover .imageResize .middleDesktop {
         cursor: pointer;
         opacity: 1;
     }
@@ -132,8 +132,8 @@
         text-decoration: underline;
     }
 
-    #live:hover,
-    #repo:hover {
+    .live:hover,
+    .repo:hover {
         cursor: pointer;
         text-decoration: none;
     }

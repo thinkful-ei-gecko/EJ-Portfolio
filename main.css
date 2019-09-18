@@ -14,6 +14,18 @@ body {
     
 }
 
+.ulDesktop {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.ulSkills {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
 footer {
     padding: 1% 0;
     background-color: #1F2833;
@@ -67,7 +79,7 @@ section:nth-child(even) {
 
 .nameHeader {
     color: rgb(255, 188, 5);
-    font-size: 4vh;
+    font-size: 40px;
     letter-spacing: 0.2vh;
     text-decoration: underline;
 }
@@ -85,7 +97,7 @@ section:nth-child(even) {
 }
 
 #headerh2 {
-    font-size: 2vh;
+    font-size: 20px;
 }
 
 .nameSpan {
@@ -97,12 +109,12 @@ section:nth-child(even) {
 }
 
 .jobTitle {
-    font-size: 2.1vh;
+    font-size: 21px;
 }
 
-#title {
+.title {
     border: solid 2px white;
-    width: 50%;
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -191,10 +203,10 @@ section:nth-child(even) {
     display: none;
 }
 
-#live,
-#repo {
-    margin-bottom: 5vh;
-    margin-top: 1vh;
+.live,
+.repo {
+    margin-bottom: 50px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
@@ -210,12 +222,12 @@ section:nth-child(even) {
     text-decoration: none;
 }
 
-#live a, #repo a {
+.live a, .repo a {
     color: white;
     text-decoration: none;
 }
 
-#live a:visited, #repo a:visited {
+.live a:visited, .repo a:visited {
     color: white;
     text-decoration: none;
 }
@@ -227,7 +239,7 @@ section:nth-child(even) {
     justify-content: center;
 }
 
-#skillsUsed {
+.skillsUsed {
     padding-top: 1.5vh;
     padding-left: 1vh;
     padding-right: 1vh;
