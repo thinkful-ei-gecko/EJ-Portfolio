@@ -7,10 +7,10 @@ body {
     font-family: "Open Sans",
         sans-serif;
     font-size: 20px;
-    color: mintcream;
+    color: #3a3940;
     text-align: center;
     line-height: 1.5;
-    background-color: #0B0C10;
+    background-color: #f1f2ed;
     
 }
 
@@ -28,11 +28,11 @@ body {
 
 footer {
     padding: 1% 0;
-    background-color: #1F2833;
+    background-color: #d6ad78;
 }
 
 nav {
-    background-color: #1F2833;
+    background-color: #3a3940;
     position: fixed;
     top: 0;
     left: 0;
@@ -42,7 +42,7 @@ nav {
 }
 
 .navName {
-    color: rgb(255, 188, 5);
+    color: #a597;
     font-size: 0px;
     display: flex;
     left: 0;
@@ -59,13 +59,13 @@ header {
 section {
     min-height: 200px;
     padding: 6% 0;
-    background-color: #1F2833;
-    color: #66FCF1;
+    background-color: #3a3940;
+    color: #f1f2ed;
 }
 
 section:nth-child(even) {
-    color: mintcream;
-    background-color: #45A29E;
+    color: #f1f2ed;
+    background-color: #d6ad78;
 }
 
 .banner {
@@ -78,7 +78,7 @@ section:nth-child(even) {
 }
 
 .nameHeader {
-    color: rgb(255, 188, 5);
+    color: #a59795;
     font-size: 40px;
     letter-spacing: 0.2vh;
     text-decoration: underline;
@@ -203,8 +203,8 @@ section:nth-child(even) {
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
-    background-color: rgb(255, 188, 5);
-    color: #1F2833;
+    background-color: #3a3940;
+    color: #d6ad78;
     width: 100px;
     height: 50px;
     border-radius: 5px;

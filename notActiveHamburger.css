@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgba(255, 188, 5, 0.85);
+    --primary-color: #ecc491;
     --overlay-color: rgba(24, 39, 51 , 0.85);
     --menu-speed: 0.75s;
   }
@@ -114,7 +114,7 @@
   }
 
   .menu-wrap .menu > div > div > ul > li > a:hover {
-    color: #66FCF1;
+    color: #f0ccb2;
   }
 
   .desktopNav {
