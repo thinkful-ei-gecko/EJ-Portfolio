@@ -114,7 +114,7 @@ section:nth-child(even) {
 
 .title {
     border: solid 2px white;
-    width: 20%;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -138,18 +138,12 @@ section:nth-child(even) {
 -----------------SKILLS-----------------
 */
 
-.skills {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-    margin-left: -5vh;
-}
-
 .skillsList {
     margin-left: auto;
     margin-right: auto;
     list-style-type: none;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 
@@ -174,11 +168,10 @@ section:nth-child(even) {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: -3.7vh;
 }
 
-.contactIcon li {
-    margin-right: 1vh;
+.contactIcons {
+    padding: 10px;
 }
 
 /*
