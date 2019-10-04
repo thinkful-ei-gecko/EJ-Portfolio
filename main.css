@@ -142,8 +142,8 @@ section:nth-child(even) {
     margin-left: auto;
     margin-right: auto;
     list-style-type: none;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
@@ -189,7 +189,7 @@ section:nth-child(even) {
 .projectImg {
     width: 80%;
     border-radius: 10px;
-    border: solid 2px white;
+    border: none;
 }
 
 .middleDesktop {
@@ -230,12 +230,13 @@ section:nth-child(even) {
     flex-direction: row;
     list-style: none;
     justify-content: center;
+    margin-left: -32px;
 }
 
 .skillsUsed {
     padding-top: 1.5vh;
-    padding-left: 1vh;
-    padding-right: 1vh;
+    padding-left: 10px;
+    padding-right: 10px;
     color: #1F2833;
     font-style: italic;
 }
